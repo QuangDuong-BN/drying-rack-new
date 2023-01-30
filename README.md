@@ -3,7 +3,7 @@ app quản lý giàn phơi quần áo
 
 - Chức năng:
   + Hiển thị tình trạng của giàn phơi.
-  + hiển thị thông số môi trường (độ ẩm, nhiệt độ, nắng/mưa) .
+  + Hiển thị thông số môi trường (độ ẩm, nhiệt độ, nắng/mưa, sáng/tối) .
   + Điều khiển các chế độ( mode1 , mode 2...).
 
 - Các linh kiện sử dụng : uno R3, esp32, cảm biến mưa, cảm biến ánh sáng, cảm biến nhiệt độ, cảm biến hồng ngoại, động cơ bước.
