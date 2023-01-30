@@ -10,7 +10,7 @@ app quản lý giàn phơi quần áo
 
 - Giải thích chức năng:
   + Mode1 : điều khiển giàn phơi theo ý muốn người dùng.
-  + Mode2 : giàn phơi tự hoạt động theo "cảm biến mưa".
+  + Mode2 : giàn phơi tự hoạt động tuân theo "cảm biến mưa".
   + Mode3 : giàn phơi tự hoạt động tuân theo "cảm biến mưa" và "cảm biến ánh sáng".
   + Mode4 : giàn phơi tự hoạt động tuân theo "cảm biến mưa" và "cảm biến ánh sáng" và "cảm biến nhiệt độ".
   
