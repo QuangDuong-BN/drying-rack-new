@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/cardview1"
+        layout="@layout/cardview1" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="117dp"
+                android:layout_height="63dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginBottom="232dp"
+                android:backgroundTint="@color/Rain"
+                android:onClick="onClickMode2"
+                android:text="Mode 2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:layout_width="117dp"
+                android:layout_height="63dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginBottom="308dp"
+                android:backgroundTint="@color/Rain"
+                android:onClick="onClickMode1"
+                android:text="Mode 1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="117dp"
+                android:layout_height="63dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginBottom="152dp"
+                android:backgroundTint="@color/Rain"
+                android:onClick="onClickMode3"
+                android:text="Mode 3"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="117dp"
+                android:layout_height="63dp"
+                android:layout_marginStart="48dp"
+                android:layout_marginBottom="76dp"
+                android:backgroundTint="@color/Rain"
+                android:onClick="onClickMode4"
+                android:text="Mode 4"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:layout_width="166dp"
+                android:layout_height="145dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginEnd="16dp"
+                android:onClick="onClickUp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/up_arrow" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="169dp"
+                android:layout_height="149dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="64dp"
+                android:onClick="onClickDown"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:srcCompat="@drawable/down_arrow" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>
