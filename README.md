@@ -20,6 +20,6 @@ app quản lý giàn phơi quần áo
 
 ![alt](https://github.com/QuangDuong-BN/DE5/blob/main/so%20do%20mach.png)
 
-![alt](https://github.com/QuangDuong-BN/DE5/blob/main/so%20do%20mach.png)
+![alt](https://github.com/QuangDuong-BN/DE5/blob/main/so%20do%20mach%202.png)
 
 
