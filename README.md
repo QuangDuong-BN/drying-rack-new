@@ -8,6 +8,11 @@ app quản lý giàn phơi quần áo
 
 - Các linh kiện sử dụng : uno R3, esp32, cảm biến mưa, cảm biến ánh sáng, cảm biến nhiệt độ, cảm biến hồng ngoại, động cơ bước.
 
+- Giải thích chức năng:
+  + Mode1 : điều khiển giàn phơi theo ý muốn người dùng.
+  + Mode2 : giàn phơi tự hoạt động theo "cảm biến mưa".
+  + Mode3 : giàn phơi tự hoạt động tuân theo "cảm biến mưa" và "cảm biến ánh sáng".
+  + Mode4 : giàn phơi tự hoạt động tuân theo "cảm biến mưa" và "cảm biến ánh sáng" và "cảm biến nhiệt độ".
   
 ## Powered by
 -  Java
