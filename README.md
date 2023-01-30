@@ -1,6 +1,14 @@
 # drying-rack-new
 app quản lý giàn phơi quần áo
 
+- Chức năng:
+  + Hiển thị tình trạng của giàn phơi.
+  + hiển thị thông số môi trường (độ ẩm, nhiệt độ, nắng/mưa) .
+  + Điều khiển các chế độ( mode1 , mode 2...).
+
+- Các linh kiện sử dụng : uno R3, esp32, cảm biến mưa, cảm biến ánh sáng, cảm biến nhiệt độ, cảm biến hồng ngoại, động cơ bước.
+
+  
 ## Powered by
 -  Java
 -  XML
@@ -11,14 +19,19 @@ app quản lý giàn phơi quần áo
 
 ## Screenshots
 
-
-
+Màn Hình điều khiển quan thiết bị android:
 
 ![alt](https://github.com/QuangDuong-BN/DE5/blob/main/manHinh.jpg)
 
+Dữ liệu trên fireBase:
+
 ![alt](https://github.com/QuangDuong-BN/DE5/blob/main/firebase.png)
 
+Sơ đồ mạch:
+
 ![alt](https://github.com/QuangDuong-BN/DE5/blob/main/so%20do%20mach.png)
+
+Sơ đồ mạch:
 
 ![alt](https://github.com/QuangDuong-BN/DE5/blob/main/so%20do%20mach%202.png)
 
